@@ -1,0 +1,11 @@
+1. composer create-project laravel/laravel pico-laravel "12.*"
+2. php artisan make:migration create_sensor_data_table
+3. php artisan migrate
+4. php artisan make:model SensorData
+5. php artisan make:controller SensorController
+6. buat file routes baru "api.php"
+7. tambahkan path nya
+	bootstrap/app.php
+		api: __DIR__ . '/../routes/api.php',
+
+running : php artisan serve --host=0.0.0.0 --port=8000
