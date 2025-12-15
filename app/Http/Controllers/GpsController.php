@@ -21,8 +21,7 @@ class GpsController extends Controller
 
         return response()->json([
             'status'  => true,
-            'message' => 'GPS data saved successfully',
-            'data'    => $gps
+            'message' => 'GPS data saved successfully'
         ]);
     }
 

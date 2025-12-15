@@ -18,8 +18,7 @@ class SensorController extends Controller
 
         return response()->json([
             'status'  => true,
-            'message' => 'Sensor data stored successfully',
-            'data'    => $data
+            'message' => 'Sensor data stored successfully'
         ]);
     }
 
